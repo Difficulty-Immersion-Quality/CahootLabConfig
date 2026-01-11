@@ -1,0 +1,16 @@
+// ======================================== Druid Wild Shape Overhaul ========================================
+
+// Make the auto-dismiss toggle on by default so NPCs will dismiss Wild Shape at end of combat
+new entry "SD_WildShape_AutoDismiss_Toggle"
+type "PassiveData"
+using "SD_WildShape_AutoDismiss_Toggle"
+// data "DisplayName" "hf01a48dbg8baeg47a3gbbf2g783a510be620;1"
+// data "Description" "hc6d3ceb7g6772g489ag87d2g92520cb8a346;1"
+// data "Icon" "WSO_WildShape_AutoDismiss"
+// data "Properties" "IsToggled;ToggledDefaultAddToHotbar;Temporary"
+data "Properties" "IsToggled;ToggledDefaultAddToHotbar;ToggledDefaultOn;Temporary"
+// data "Conditions" "HasStatus('SD_WILDSHAPE_AUTODISMISS_ON',context.Source)"
+// data "StatsFunctorContext" "OnCombatEnded"
+// data "StatsFunctors" "RemoveStatus(SG_Polymorph_BeastShape)"
+// data "ToggleOnFunctors" "ApplyStatus(SD_WILDSHAPE_AUTODISMISS_ON,100,-1)"
+// data "ToggleOffFunctors" "RemoveStatus(SD_WILDSHAPE_AUTODISMISS_ON)"
